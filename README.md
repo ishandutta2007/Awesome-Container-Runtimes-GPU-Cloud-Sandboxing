@@ -1,54 +1,56 @@
-# Awesome-Container-Runtimes-GPU-Cloud-Sandboxing
+<div align="center">
 
-## Top Container Runtimes & GPU Cloud Sandboxing Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing">
+  <img src="assets/banner.svg" alt="Awesome Container Runtimes &amp; GPU Cloud Sandboxing Banner" width="100%"/>
+</a>
 
+# 🚀 Awesome Container Runtimes & GPU Cloud Sandboxing
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing?style=social" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+<p align="center">
+  <strong>Curated Directory of Open-Source Container Runtimes, Isolated AI Agent Sandboxes, MicroVMs, Serverless GPU Clouds, vGPU Virtualization &amp; Distributed LLM Cluster Orchestration</strong>
+</p>
 
-*Focused on GPU-Accelerated Container Runtimes, Isolated AI Agent Sandboxes, MicroVMs, Serverless GPU Clouds & Kernel-Level Isolation*  
+<p align="center">
+  <em>Updated regularly for AI infrastructure engineers, platform architects, MLOps specialists, and security researchers.</em>
+</p>
 
-**Last updated: November 2026**
+</div>
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Container Runtimes & GPU Cloud Sandboxing**. These tools isolate, schedule, accelerate, and execute untrusted AI-generated code, GPU-accelerated containers, and multi-tenant workloads across bare-metal GPU clusters, microVMs, rootless container runtimes, and serverless GPU clouds.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted GPU Cloud Platforms](#️-saas--hosted-gpu-cloud-platforms)
+- [📦 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🔥 AI Agent Sandboxing, MicroVMs & Isolation Kernels](#-ai-agent-sandboxing-microvms--isolation-kernels)
+  - [⚡ High-Performance LLM Serving & GPU Container Runtimes](#-high-performance-llm-serving--gpu-container-runtimes)
+  - [🛠️ OCI Standard, Low-Level Runtimes & Container Toolkits](#️-oci-standard-low-level-runtimes--container-toolkits)
+  - [🌐 Distributed AI Cluster Schedulers & Compute Brokers](#-distributed-ai-cluster-schedulers--compute-brokers)
+  - [🎮 GPU Virtualization, vGPU Sharing & Cloud Operators](#-gpu-virtualization-vgpu-sharing--cloud-operators)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-
-**Examples** include RunPod, Lambda Labs, CoreWeave, Vast.ai, Together AI, Modal, Anyscale, FluidStack, JarvisLabs, Crusoe Cloud, and NVIDIA/OpenShell (the category leaders and popular runtimes). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for secure AI agent & GPU sandboxing (`NVIDIA/OpenShell`, `gVisor`, `Kata Containers`, `Firecracker`, `E2B`, `Daytona`), GPU-aware OCI container runtimes (`NVIDIA Container Toolkit`, `containerd`, `CRI-O`, `Podman`), and distributed GPU cluster schedulers (`Ray`, `SkyPilot`, `dstack`) — ideal for AI infrastructure engineers, MLOps architects, platform teams, and security researchers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Support & Share](#support--share)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 🌐 Sector Overview & Market Dynamics
 
 The global GPU-as-a-Service (GPUaaS) and GPU Cloud infrastructure sector is estimated at **$43.6B to $50B+ in 2026** (growing at a 20–30%+ CAGR), transitioning heavily from exploratory training clusters to continuous, production-grade AI agent sandboxes and low-latency inference workloads. The sector exhibits a **moderately fragmented, multi-tiered structure**: top-tier hyperscalers (AWS, Azure, GCP, OCI) command foundational enterprise spend (>60%), while high-growth specialized "neoclouds" (CoreWeave, Crusoe, Lambda, Modal) capture massive market share on price-performance, bare-metal InfiniBand fabrics, and developer ergonomics, flanked by peer-to-peer/decentralized marketplaces (Vast.ai) addressing cost-sensitive spot execution.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS & Hosted GPU Cloud Platforms
 
 | Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier / Trial Limits | Key Capabilities & Architecture |
 | :--- | :--- | :--- | :--- | :--- |
@@ -63,156 +65,138 @@ The global GPU-as-a-Service (GPUaaS) and GPU Cloud infrastructure sector is esti
 | **[JarvisLabs.ai](https://jarvislabs.ai)** | **~$1.2M ARR** (Private / Bootstrapped) | ~$0.44/hr (NVIDIA L4), ~$1.49/hr (A100 80GB), H100 from ~$2.69/hr | **No Free Tier / No Free Trial** ($5 minimum wallet balance top-up required to launch; pause/resume storage at ~$0.005/GB/day) | Instant Jupyter/VS Code GPU containers, pause-and-resume persistent storage, spot instances (up to 56% off), and lightweight Python SDK. |
 | **[Vast.ai](https://vast.ai)** | **Early-Stage Venture Backed** (~$4M funding) | ~$0.20/hr (Starting RTX 3080/4090 spot rates; H100 from ~$0.90–$2.40/hr) | **No Free Tier / No Free Trial** (Prepaid deposit required before instance startup; unallocated balance refundable) | Decentralized peer-to-peer GPU marketplace providing low-cost Docker container execution with real-time bidding, spot pricing, and search filters. |
 
+---
 
+## 📦 Open-Source GitHub Projects
 
+All open-source repositories below are sorted by GitHub Star count in descending order. Each project includes a live Star badge linking directly to its stargazer community.
 
+### 🌟 Ranked Open-Source Projects (by GitHub Stars)
 
+1. **[Ollama (`ollama/ollama`)](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+   🚀 Lightweight, highly optimized local LLM runner and containerized server packaging model weights, configurations, and GPU runtime into single Modelfiles.
 
+2. **[vLLM (`vllm-project/vllm`)](https://github.com/vllm-project/vllm)** [![Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+   ⚡ High-throughput, memory-efficient LLM serving engine featuring PagedAttention, continuous batching, chunked prefill, and native CUDA/ROCm kernel optimization.
 
-## Open-Source GitHub Projects
+3. **[Daytona (`daytonaio/daytona`)](https://github.com/daytonaio/daytona)** [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)  
+   🛡️ Open-source infrastructure and elastic sandbox manager for executing untrusted AI-generated code, agent workflows, and isolated development environments in milliseconds.
 
+4. **[Ray (`ray-project/ray`)](https://github.com)** [![Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
+   🌐 Unified compute engine for scaling Python and AI workloads across multi-node GPU clusters with distributed actor scheduling and Ray Serve.
 
+5. **[Firecracker (`firecracker-microvm/firecracker`)](https://github.com/firecracker-microvm/firecracker)** [![Stars](https://img.shields.io/github/stars/firecracker-microvm/firecracker?style=social&color=white)](https://github.com/firecracker-microvm/firecracker/stargazers)  
+   🔒 Minimalist, high-security open-source Virtual Machine Monitor (VMM) written in Rust by AWS for launching isolated multi-tenant microVMs in milliseconds.
 
-- **[NVIDIA/OpenShell](https://github.com)**  
+6. **[Podman (`containers/podman`)](https://github.com/containers/podman)** [![Stars](https://img.shields.io/github/stars/containers/podman?style=social&color=white)](https://github.com/containers/podman/stargazers)  
+   📦 Daemonless, unprivileged container engine for developing, managing, and running OCI containers, pods, and rootless GPU workloads.
 
-  Open-source secure runtime and sandboxing environment from NVIDIA engineered for isolating autonomous AI agents, shell execution, and GPU-accelerated developer workflows.
+7. **[OpenShell (`ai-openshell/openshell`)](https://github.com/ai-openshell/openshell)** [![Stars](https://img.shields.io/github/stars/ai-openshell/openshell?style=social&color=white)](https://github.com/ai-openshell/openshell/stargazers)  
+   🤖 Safe, private runtime environment engineered for isolating autonomous AI agents, shell execution, and GPU-accelerated developer workflows.
 
+8. **[containerd (`containerd/containerd`)](https://github.com/containerd/containerd)** [![Stars](https://img.shields.io/github/stars/containerd/containerd?style=social&color=white)](https://github.com/containerd/containerd/stargazers)  
+   ⚙️ Industry-standard CNCF core container runtime managing complete container lifecycles, image transfers, and execution across Kubernetes clusters worldwide.
 
+9. **[gVisor (`google/gvisor`)](https://github.com/google/gvisor)** [![Stars](https://img.shields.io/github/stars/google/gvisor?style=social&color=white)](https://github.com/google/gvisor/stargazers)  
+   🛡️ Application kernel written in Go (`runsc`) that intercepts container syscalls in user space to provide strong VM-like defense-in-depth isolation with NVIDIA GPU passthrough.
 
-- **[NVIDIA Container Toolkit (`NVIDIA/nvidia-container-toolkit`)](https://github.com)**  
+10. **[Wasmtime (`bytecodealliance/wasmtime`)](https://github.com/bytecodealliance/wasmtime)** [![Stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=social&color=white)](https://github.com/bytecodealliance/wasmtime/stargazers)  
+    ⚡ Fast, secure, and standards-compliant standalone WebAssembly runtime ideal for deterministic, low-overhead AI micro-sandboxes.
 
-  Foundational open-source toolkit enabling Docker, `containerd`, `CRI-O`, and Podman to automatically expose NVIDIA GPUs, CUDA drivers, and CDI specs inside Linux containers.
+11. **[E2B (`e2b-dev/E2B`)](https://github.com/e2b-dev/E2B)** [![Stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=social&color=white)](https://github.com/e2b-dev/E2B/stargazers)  
+    🤖 Secure cloud microVM runtime powered by Firecracker tailored specifically for executing untrusted AI agent code, sandboxed browsers, and stateful code interpreter sessions.
 
+12. **[runc (`opencontainers/runc`)](https://github.com/opencontainers/runc)** [![Stars](https://img.shields.io/github/stars/opencontainers/runc?style=social&color=white)](https://github.com/opencontainers/runc/stargazers)  
+    🔧 Foundational CLI tool and universal standard for spawning and running containers according to OCI specifications.
 
+13. **[Triton Inference Server (`triton-inference-server/server`)](https://github.com/triton-inference-server/server)** [![Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)  
+    🚀 Enterprise-grade multi-framework AI inference server supporting GPUs, CPUs, concurrent model execution, dynamic batching, and model pipelining.
 
-- **[gVisor (`google/gvisor`)](https://github.com)**  
+14. **[SkyPilot (`skypilot-org/skypilot`)](https://github.com/skypilot-org/skypilot)** [![Stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)  
+    🛰️ Multi-cloud broker framework for executing AI jobs and GPU containers across AWS, GCP, Azure, Lambda, RunPod, and Vast.ai with automatic cost optimization and spot recovery.
 
-  Open-source application kernel written in Go (`runsc`) that intercepts container syscalls in user space to provide strong VM-like isolation for untrusted code execution and AI sandboxes.
+15. **[WasmEdge (`WasmEdge/WasmEdge`)](https://github.com/WasmEdge/WasmEdge)** [![Stars](https://img.shields.io/github/stars/WasmEdge/WasmEdge?style=social&color=white)](https://github.com/WasmEdge/WasmEdge/stargazers)  
+    ⚡ Cloud-native, high-performance WebAssembly runtime optimized for microservices, edge computing, and GPU-accelerated serverless AI inference.
 
+16. **[Kata Containers (`kata-containers/kata-containers`)](https://github.com/kata-containers/kata-containers)** [![Stars](https://img.shields.io/github/stars/kata-containers/kata-containers?style=social&color=white)](https://github.com/kata-containers/kata-containers/stargazers)  
+    🔒 Hardware-isolated OCI container runtime executing containers within lightweight virtual machines (QEMU, Cloud Hypervisor) with PCIe GPU passthrough support.
 
+17. **[Microsandbox (`superradcompany/microsandbox`)](https://github.com/superradcompany/microsandbox)** [![Stars](https://img.shields.io/github/stars/superradcompany/microsandbox?style=social&color=white)](https://github.com/superradcompany/microsandbox/stargazers)  
+    🧱 Easy, fast, programmable, and local-first microVM runtime engineered for running untrusted AI agent code on developer workstations.
 
-- **[Kata Containers (`kata-containers/kata-containers`)](https://github.com)**  
+18. **[Youki (`youki-dev/youki`)](https://github.com/youki-dev/youki)** [![Stars](https://img.shields.io/github/stars/youki-dev/youki?style=social&color=white)](https://github.com/youki-dev/youki/stargazers)  
+    🦀 Fast and secure low-level OCI container runtime implemented entirely in Rust with modern Linux cgroup v2 support.
 
-  Open-source OCI-compatible container runtime that runs every container inside its own lightweight hardware-virtualized microVM (QEMU, Cloud Hypervisor, Firecracker) with PCIe GPU passthrough.
+19. **[Cloud Hypervisor (`cloud-hypervisor/cloud-hypervisor`)](https://github.com/cloud-hypervisor/cloud-hypervisor)** [![Stars](https://img.shields.io/github/stars/cloud-hypervisor/cloud-hypervisor?style=social&color=white)](https://github.com/cloud-hypervisor/cloud-hypervisor/stargazers)  
+    🖥️ Modern, secure Rust-based Virtual Machine Monitor tailored for cloud-native workloads, minimal attack surfaces, and VFIO device passthrough.
 
+20. **[CRI-O (`cri-o/cri-o`)](https://github.com/cri-o/cri-o)** [![Stars](https://img.shields.io/github/stars/cri-o/cri-o?style=social&color=white)](https://github.com/cri-o/cri-o/stargazers)  
+    ☸️ Lightweight, OCI-based implementation of the Kubernetes Container Runtime Interface (CRI) streamlined for production enterprise Kubernetes.
 
+21. **[HAMi (`Project-HAMi/HAMi`)](https://github.com/Project-HAMi/HAMi)** [![Stars](https://img.shields.io/github/stars/Project-HAMi/HAMi?style=social&color=white)](https://github.com/Project-HAMi/HAMi/stargazers)  
+    🎮 Heterogeneous GPU sharing and virtualization framework for Kubernetes enabling hard memory limits and fractional vGPU partitioning across multi-vendor GPUs.
 
-- **[Firecracker (`firecracker-microvm/firecracker`)](https://github.com)**  
+22. **[NVIDIA Container Toolkit (`NVIDIA/nvidia-container-toolkit`)](https://github.com/NVIDIA/nvidia-container-toolkit)** [![Stars](https://img.shields.io/github/stars/NVIDIA/nvidia-container-toolkit?style=social&color=white)](https://github.com/NVIDIA/nvidia-container-toolkit/stargazers)  
+    🔧 Universal toolkit enabling Docker, `containerd`, `CRI-O`, and Podman to automatically bind NVIDIA GPUs, CUDA libraries, and CDI specs inside containers.
 
-  Minimalist, high-security open-source Virtual Machine Monitor (VMM) written in Rust by AWS for launching isolated multi-tenant microVMs in milliseconds.
+23. **[Sysbox (`nestybox/sysbox`)](https://github.com/nestybox/sysbox)** [![Stars](https://img.shields.io/github/stars/nestybox/sysbox?style=social&color=white)](https://github.com/nestybox/sysbox/stargazers)  
+    📦 Next-generation enhanced `runc` container runtime enabling unprivileged rootless containers to run systemd, Docker, and Kubernetes seamlessly.
 
+24. **[Kueue (`kubernetes-sigs/kueue`)](https://github.com/kubernetes-sigs/kueue)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/kueue?style=social&color=white)](https://github.com/kubernetes-sigs/kueue/stargazers)  
+    🚦 Kubernetes-native job queueing and capacity management controller for scheduling batch ML training, GPU quotas, and fair-sharing.
 
+25. **[NVIDIA GPU Operator (`NVIDIA/gpu-operator`)](https://github.com/NVIDIA/gpu-operator)** [![Stars](https://img.shields.io/github/stars/NVIDIA/gpu-operator?style=social&color=white)](https://github.com/NVIDIA/gpu-operator/stargazers)  
+    ⚙️ Kubernetes operator automating the full lifecycle management of NVIDIA GPU drivers, container runtimes, monitoring exporters, and MIG device configurations.
 
-- **[E2B (`e2b-dev/e2b`)](https://github.com)**  
+26. **[dstack (`dstackai/dstack`)](https://github.com/dstackai/dstack)** [![Stars](https://img.shields.io/github/stars/dstackai/dstack?style=social&color=white)](https://github.com/dstackai/dstack/stargazers)  
+    🚀 Unified orchestration layer for managing heterogeneous AI compute, training jobs, dev environments, and model serving across any GPU cloud or on-prem cluster.
 
-  Open-source cloud runtime and SDK powered by Firecracker microVMs built specifically for running untrusted LLM-generated code, stateful terminals, and AI agent sandboxes safely.
+27. **[Apptainer (`apptainer/apptainer`)](https://github.com/apptainer/apptainer)** [![Stars](https://img.shields.io/github/stars/apptainer/apptainer?style=social&color=white)](https://github.com/apptainer/apptainer/stargazers)  
+    🧪 Rootless, unprivileged application container platform purpose-built for High-Performance Computing (HPC), academic GPU clusters, and reproducible research.
 
-
-
-- **[Ray (`ray-project/ray`)](https://github.com)**  
-
-  Leading open-source unified compute framework for scaling Python and AI workloads across multi-node GPU clusters with distributed actor scheduling and Ray Serve.
-
-
-
-- **[SkyPilot (`skypilot-org/skypilot`)](https://github.com)**  
-
-  Open-source broker framework for running AI, batch jobs, and GPU containers seamlessly across AWS, GCP, Azure, Lambda, RunPod, Vast.ai, and Kubernetes with automatic spot recovery.
-
-
-
-- **[dstack (`dstackai/dstack`)](https://github.com)**  
-
-  Open-source container orchestrator designed specifically for AI workloads, simplifying GPU provisioning, dev environments, and distributed training across any cloud or on-prem GPU server.
-
-
-
-- **[containerd (`containerd/containerd`) & runc (`opencontainers/runc`)](https://github.com)**  
-
-  Industry-standard CNCF open-source container runtime and OCI low-level executor powering Kubernetes, Docker, and cloud GPU node pools worldwide.
-
-
-
-- **[Daytona (`daytonaio/daytona`)](https://github.com)**  
-
-  Open-source elastic sandbox and development environment manager providing sub-second isolated container runtimes for AI agents and developer workspaces.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Sysbox (`nestybox/sysbox`)](https://github.com)** for an open-source enhanced `runc` container runtime capable of running Docker-in-Docker, systemd, and Kubernetes inside unprivileged rootless containers safely.
-
-- **[Podman (`containers/podman`)](https://github.com)** and **[Apptainer / Singularity (`apptainer/apptainer`)](https://github.com)** for daemonless, rootless container runtimes widely used on multi-tenant HPC and university GPU clusters.
-
-- **[HAMi (`Project-HAMi/HAMi`)](https://github.com)** and **[NVIDIA GPU Operator (`NVIDIA/gpu-operator`)](https://github.com)** for open-source GPU virtualization, vGPU fractional sharing, and automated Kubernetes GPU driver/toolkit lifecycle management.
-
-- **[Cloud Hypervisor (`cloud-hypervisor/cloud-hypervisor`)](https://github.com)** for a modern, Rust-based Virtual Machine Monitor optimized for cloud-native workloads and VFIO GPU passthrough.
-
-- **[Microsandbox (`microsandbox/microsandbox`)](https://github.com)** for self-hosted, fast-booting microVM sandboxes engineered for executing untrusted AI agent code locally or on-prem.
-
-
-
-**Frameworks for building custom systems**: Combine **NVIDIA/OpenShell** or **gVisor / Kata Containers** for hardened container and AI-agent sandboxing, **NVIDIA Container Toolkit + HAMi** for fractional GPU sharing, and **SkyPilot** or **Ray** for multi-cloud GPU cluster orchestration.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Standard OCI containers (`runc`) share the host Linux kernel; when executing untrusted AI-generated code or multi-tenant workloads, always use hardware microVMs (`Firecracker`, `Kata Containers`, `E2B`) or user-space syscall kernels (`gVisor`) alongside strict network egress controls.
-
-- GPU cloud workloads and multi-node clusters incur rapid compute charges; configure automatic idle shutdowns, spot-instance fallbacks, and VRAM/disk quotas.
-
-
+28. **[KubeAI (`kubeai-project/kubeai`)](https://github.com/kubeai-project/kubeai)** [![Stars](https://img.shields.io/github/stars/kubeai-project/kubeai?style=social&color=white)](https://github.com/kubeai-project/kubeai/stargazers)  
+    🤖 Kubernetes-native AI inference operator providing autoscaling from zero, multi-engine support (vLLM, Ollama), and automated GPU hardware allocation.
 
 ---
 
+## 🤝 How to Contribute
 
+We welcome contributions from the community! To suggest a new open-source runtime, microVM project, or GPU cloud platform:
 
-**Made for AI infrastructure engineers, MLOps architects, platform teams, security researchers, and open-source contributors.**  
+1. **Fork this repository** to your personal GitHub account.
+2. **Add or update an entry** in `README.md` keeping alphabetical or star-ranked consistency.
+3. **Include essential details**: Project/platform name, official link, star badge, accurate pricing/free-tier specifics, and a crisp 1–2 sentence architectural description.
+4. **Submit a Pull Request** with a clear explanation of why the addition is valuable to the ecosystem.
 
-Let's make container runtimes and GPU cloud sandboxing more open, isolated, and portable.
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated ecosystem guide! If you find this directory valuable for your research, team, or projects, please consider supporting the project:
+
+- ⭐ **Star this repository** to help fellow AI engineers and researchers discover it.
+- 🍴 **Fork & Share** the repo with your network on LinkedIn, X/Twitter, Reddit, and developer Discord servers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance, automated tools, and open-source updates on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) — featuring perks including README shoutouts, sponsorship badges, and prioritized issue reviews!
+
+[![Sponsor @ishandutta2007](https://img.shields.io/badge/Sponsor-%E2%99%A5-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an **independent, community-curated resource** for educational, engineering, and architectural evaluation purposes.
+- Standard OCI containers (`runc`) share the host Linux kernel; when executing untrusted AI-generated code, prompt-injected LLM outputs, or multi-tenant code, always deploy hardware microVMs (`Firecracker`, `Kata Containers`, `E2B`) or syscall-intercepting kernels (`gVisor`) with strictly enforced network egress barriers.
+- GPU cloud workloads and multi-node clusters incur rapid compute charges; configure automated idle shutdowns, spot-instance failovers, and VRAM/disk quotas to manage cloud spend.
+
+---
+
+<div align="center">
+  <strong>Crafted for AI Infrastructure Engineers, MLOps Architects, Platform Teams & Security Researchers.</strong><br>
+  <em>Let's build secure, fast, and isolated GPU container runtimes together.</em>
+</div>
