@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,67 +44,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global GPU-as-a-Service (GPUaaS) and GPU Cloud infrastructure sector is estimated at **$43.6B to $50B+ in 2026** (growing at a 20–30%+ CAGR), transitioning heavily from exploratory training clusters to continuous, production-grade AI agent sandboxes and low-latency inference workloads. The sector exhibits a **moderately fragmented, multi-tiered structure**: top-tier hyperscalers (AWS, Azure, GCP, OCI) command foundational enterprise spend (>60%), while high-growth specialized "neoclouds" (CoreWeave, Crusoe, Lambda, Modal) capture massive market share on price-performance, bare-metal InfiniBand fabrics, and developer ergonomics, flanked by peer-to-peer/decentralized marketplaces (Vast.ai) addressing cost-sensitive spot execution.
+
 ## SaaS/Hosted Platforms
 
+| Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier / Trial Limits | Key Capabilities & Architecture |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Crusoe Cloud](https://crusoe.ai)** | **$30.9B Valuation** (~$2B ARR) | ~$2.00/hr (On-demand GPU instances; H100 SXM ~$2.30–$3.00/hr) | **No Free Tier / No Free Trial** (Enterprise evaluation credits issued selectively via sales team) | Climate-aligned high-density GPU infrastructure powered by stranded/clean energy; managed Kubernetes, Slurm, and InfiniBand networking. |
+| **[CoreWeave](https://coreweave.com)** | **$27B–$28B Market Cap** (~$13B ARR guidance) | ~$1.28/hr (RTX A6000; H100 SXM5 ~$2.06/hr, A100 80GB ~$2.21/hr) | **CoreWeave Forge Free Plan** ($0/mo for experiment tracking & model evaluation); $50 one-time developer credits on signup; no free GPU hours. | Specialized bare-metal Kubernetes GPU cloud with InfiniBand fabrics; zero egress fees and high-performance NVMe/object storage. |
+| **[FluidStack](https://fluidstack.io)** | **$18B Valuation** (~$660M ARR) | ~$1.50/hr (Starting on-demand GPU rate; H100 ~$1.50–$2.30/hr) | **No Free Tier / No Free Trial** (Enterprise contracts and custom deployments only; no public self-service tier) | High-speed bare-metal and containerized GPU cloud clusters tailored for LLM training labs, custom data centers, and multi-cloud brokers. |
+| **[Modal](https://modal.com)** | **$15.75B Valuation** (~$1B ARR) | $0.00/mo base + $0.00005/core-sec CPU, ~$0.00016/sec (T4 ~$0.59/hr, A100 80GB ~$3.40/hr) | **Permanent Free Starter Tier**: $30/month recurring free compute credits, 3 seats, 100 max containers, 10 GPU concurrency limit, 1 TiB/month egress. | Serverless cloud compute and sub-second container sandboxing; Python-native GPU scheduling for isolated AI agent execution and inference. |
+| **[Lambda Labs](https://lambdalabs.com)** | **$14.5B Valuation** (~$1.5B ARR) | ~$0.79/hr (A10; H100 SXM ~$2.49–$2.99/hr billed per minute) | **No Free Tier / No Free Trial** (Paid accounts only with credit card validation; zero developer trial credits) | Developer-centric AI cloud with 1-Click Clusters, pre-configured ML container runtimes, zero egress charges, and on-demand H100/B200 nodes. |
+| **[Together AI](https://together.ai)** | **$8.3B Valuation** | ~$0.14 per 1M tokens (Serverless inference) / ~$3.99/hr (Dedicated H100 GPU clusters) | **No Free Tier** ($15 minimum initial prepaid deposit required; Startup grant program offers $15K–$50K credits upon application) | Unified AI acceleration platform pairing serverless model endpoints, dedicated GPU clusters, and isolated Python code interpreter sandboxes. |
+| **[Anyscale](https://anyscale.com)** | **$1.65B Valuation** (Acquired by Nscale; ~$100M ARR) | ~$0.0135/hr (CPU instances), ~$0.57/hr (T4 GPU), ~$4.96/hr (A100 GPU) | **Permanent Free Account Tier** with community support + **$100 one-time free trial credits** for new developer signups. | Managed Ray compute platform for scalable distributed AI workloads, multi-node GPU clusters, and serverless Ray Serve endpoints. |
+| **[RunPod](https://runpod.io)** | **$1.0B Valuation** (~$240M ARR) | ~$0.16/hr (Community Cloud RTX A5000), ~$0.34/hr (RTX 4090), Secure Cloud H100 from ~$2.69/hr | **No Free Tier / No Free Trial** (Requires pre-funded account balance; per-second billing with zero egress fees) | Globally distributed container pods, serverless GPU workers, and custom Docker template deployments across community and secure data centers. |
+| **[JarvisLabs.ai](https://jarvislabs.ai)** | **~$1.2M ARR** (Private / Bootstrapped) | ~$0.44/hr (NVIDIA L4), ~$1.49/hr (A100 80GB), H100 from ~$2.69/hr | **No Free Tier / No Free Trial** ($5 minimum wallet balance top-up required to launch; pause/resume storage at ~$0.005/GB/day) | Instant Jupyter/VS Code GPU containers, pause-and-resume persistent storage, spot instances (up to 56% off), and lightweight Python SDK. |
+| **[Vast.ai](https://vast.ai)** | **Early-Stage Venture Backed** (~$4M funding) | ~$0.20/hr (Starting RTX 3080/4090 spot rates; H100 from ~$0.90–$2.40/hr) | **No Free Tier / No Free Trial** (Prepaid deposit required before instance startup; unallocated balance refundable) | Decentralized peer-to-peer GPU marketplace providing low-cost Docker container execution with real-time bidding, spot pricing, and search filters. |
 
 
-- **[Modal](https://modal.com)**  
-
-  Serverless cloud compute and container sandbox platform engineered for AI/ML workloads, offering sub-second cold starts, Python-native GPU scheduling, and isolated code sandboxes.
-
-
-
-- **[RunPod](https://runpod.io)**  
-
-  Globally distributed GPU cloud platform providing instant Docker container pods, serverless GPU workers, and custom template deployments for AI training and inference.
-
-
-
-- **[CoreWeave](https://coreweave.com)**  
-
-  Specialized GPU-accelerated cloud infrastructure provider built on bare-metal Kubernetes with InfiniBand networking for large-scale AI training and inference clusters.
-
-
-
-- **[Lambda Labs (Lambda Cloud)](https://lambdalabs.com)**  
-
-  Developer-focused GPU cloud platform offering on-demand H100/B200 instances, 1-Click Clusters, and pre-configured ML container environments.
-
-
-
-- **[Together AI](https://together.ai)**  
-
-  Cloud AI acceleration platform combining serverless open-source model inference, dedicated GPU clusters, and isolated Python code-interpreter sandboxes.
-
-
-
-- **[Anyscale](https://anyscale.com)**  
-
-  Managed cloud platform built by the creators of Ray for scaling distributed AI workloads, multi-node GPU clusters, and serverless compute endpoints.
-
-
-
-- **[Vast.ai](https://vast.ai)**  
-
-  Decentralized GPU cloud marketplace enabling low-cost Docker container execution across globally distributed host machines with flexible hardware filtering.
-
-
-
-- **[FluidStack](https://fluidstack.io)**  
-
-  Cloud GPU platform delivering high-speed bare-metal and containerized NVIDIA GPU clusters for AI labs, enterprises, and inference workloads.
-
-
-
-- **[Crusoe Cloud](https://crusoe.ai)**  
-
-  Climate-aligned AI cloud infrastructure powered by stranded and clean energy, offering managed Kubernetes, Slurm clusters, and high-density GPU VMs.
-
-
-
-- **[JarvisLabs.ai](https://jarvislabs.ai)**  
-
-  Streamlined GPU cloud platform tailored for AI researchers and developers with instant Jupyter/VS Code containers, pause/resume storage, and Python SDK automation.
 
 
 
