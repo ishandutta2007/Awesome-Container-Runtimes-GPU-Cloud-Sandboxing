@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Container-Runtimes-GPU-Cloud-Sandboxing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -69,9 +69,9 @@ The global GPU-as-a-Service (GPUaaS) and GPU Cloud infrastructure sector is esti
 
 ## 📦 Open-Source GitHub Projects
 
-All open-source repositories below are sorted by GitHub Star count in descending order. Each project includes a live Star badge linking directly to its stargazer community.
+All open-source repositories below are sorted by GitHub Stars_Count in descending order. Each project includes a live Stars_Badge linking directly to its stargazer community.
 
-### 🌟 Ranked Open-Source Projects (by GitHub Stars)
+### 🌟 Ranked Open-Source Projects (by GitHub_Stars)
 
 1. **[Ollama (`ollama/ollama`)](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
    🚀 Lightweight, highly optimized local LLM runner and containerized server packaging model weights, configurations, and GPU runtime into single Modelfiles.
@@ -165,7 +165,7 @@ We welcome contributions from the community! To suggest a new open-source runtim
 
 1. **Fork this repository** to your personal GitHub account.
 2. **Add or update an entry** in `README.md` keeping alphabetical or star-ranked consistency.
-3. **Include essential details**: Project/platform name, official link, star badge, accurate pricing/free-tier specifics, and a crisp 1–2 sentence architectural description.
+3. **Include essential details**: Project/platform name, official link, Stars_Badge, accurate pricing/free-tier specifics, and a crisp 1–2 sentence architectural description.
 4. **Submit a Pull Request** with a clear explanation of why the addition is valuable to the ecosystem.
 
 ---
